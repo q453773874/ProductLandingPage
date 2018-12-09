@@ -1,0 +1,143 @@
+
+main {
+  width:80%;
+  margin:0 auto;
+}
+footer {
+  background-color:grey;
+}
+li {
+  list-style:none;
+}
+h1 {
+  text-align:center;
+}
+button {
+  padding:10px;
+  background-color:#f1c40f;
+  text-transform:uppercase;
+  border-radius:2px;
+}
+i {
+  color:darkorange;
+}
+body {
+  background: #a9d7d1;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  margin:0;
+  padding:0;
+}
+// header
+#header-img {
+  width:20vw;
+}
+#header {
+  position:fix;
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  justify-content:space-around;
+  align-items:center;
+  padding:0 70px;
+}
+.logo {
+  width:40%;
+}
+#nav-bar {
+  width:60%;
+}
+.nav-link {
+  text-decoration:none;
+  color:black;
+}
+nav ul {
+  display:flex;
+  justify-content:space-around;
+}
+// body
+.form-container {
+  text-align:center;
+}
+#form {
+  line-height:3;
+}
+#email {
+  width:20%;
+}
+#features {
+  display:grid;
+  justify-content:center;
+  align-items:center;
+  grid-template-areas:
+    "materialIcon  materialDetail"
+    "shipIcon  shipDetail"
+    "qualityIcon  qualityDetail";
+  grid-column-gap:50px;
+  grid-row-gap:30px;
+}
+.bold-text {
+  font-weight:bold;
+}
+#materialIcon {
+  grid-area:materialIcon;
+}
+#materialDetail {
+  grid-area:materialDetail;
+}
+#shipIcon {
+  grid-area:shipIcon;
+}
+#shipDetail {
+  grid-area:shipDetail;
+}
+#qualityIcon {
+  grid-area:qualityIcon;
+}
+#qualityDetail {
+  grid-area:qualityDetail;
+}
+#how-it-works {
+  margin-top:50px;
+  text-align:center;
+}
+#prising {
+  margin-top:50px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  justify-items:center;
+  align-items:center;
+  text-align:center;
+  grid-column-gap:10px;
+  margin-bottom:50px;
+}
+.prising-container {
+  box-sizing:border-box;
+  border:1px solid black;
+  justify-self:stretch;
+  padding-bottom:10px;
+}
+.prising-upper {
+  background-color:grey;
+  height:100%;
+}
+// footer
+#footer-nav {
+  display:flex;
+  justify-content:flex-end;
+}
+#footer-nav ul {
+  display:flex;
+  justify-content:flex-end;
+  flex-direction:row;
+  align-items:center;
+  flex-basis:10em;
+}
+#footer-nav ul li {
+  display:block;
+  padding:0 10px;
+}
+copyright {
+  display:flex;
+  justify-content:flex-end;
+  padding-bottom:10px;
+}
